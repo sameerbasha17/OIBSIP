@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Main Container */
+.container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Centered Image */
+.image-section img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Two-Column Layout for Biography, Achievements, and Legacy */
+.content {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Biography Section */
+#biography {
+    background: #fbfcbb;
+    color: #333333fd;
+}
+
+/* Achievements Section */
+#achievements {
+    background: #d5e8d4;
+    color: #333;
+}
+
+
+/* Legacy Section */
+#legacy {
+    background: #d0e1f9;
+    color: #333;
+}
+
+.left {
+    width: 30%;
+    text-align: left;
+    padding: 20px;
+}
+
+.left h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.right {
+    width: 70%;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Quote Section */
+.quote-section {
+    margin-top: 30px;
+    padding: 20px;
+    background: #a8e1d1;
+    color: #ba1616bf;
+    border-radius: 10px;
+}
+
+.quote-section h2 {
+    font-size: 24px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    background: #1ab8e8;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
